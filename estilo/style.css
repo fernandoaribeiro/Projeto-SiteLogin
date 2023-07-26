@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/*Mobile First*/
+
+/*CORES*/
+:root{
+    --cor01:#5b828a;
+    --cor02:#497173;
+    --cor03:#1a3536;
+    --cor04:#121713;
+}
+
+/*GERAIS*/
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: var(--cor03);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*MAIN*/
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 250px;
+    height: 510px;
+    border-radius: 20px;
+    background-color: white;  
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.35); 
+}
+main > img{
+    width: 250px;
+    height: 190px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/*SECTION*/
+section{
+    padding: 10px;
+}
+section > h1{
+    padding: 10px;
+    text-align: center;
+    font-size: 1.4em;
+}
+section > p{
+    font-size: 0.75em;
+}
+
+/*FORM*/
+form{
+    text-align: center;
+}
+
+form p{
+    width: 225px;
+    padding: 3px;
+    border-radius: 10px;
+    margin: 5px 0px;
+    background-color: var(--cor02);
+}
+
+form i{
+    vertical-align: middle;
+    margin: 5px;
+}
+
+form input{
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+    padding-left: 5px;
+}
+
+form input#ienviar{
+    width: 230px;
+    height: 35px;
+    padding: 3px;
+    background-color: var(--cor02);
+    border: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+form input#ienviar:hover{
+    background-color: var(--cor03);
+}
+
+form a{
+    text-decoration: none;
+    color: #121713;
+}
+
+form p#link{
+    width: 230px;
+    background-color: white;
+    border: 2px solid var(--cor02);
+    box-sizing: border-box;
+}
+
+form p#link:hover{
+    background-color: var(--cor01);
+}
+
+
+
+
+
+
