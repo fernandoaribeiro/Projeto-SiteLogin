@@ -10,30 +10,37 @@
 </head>
 <body>
     <main>
-            <section id="login">
-                <div id="imagem">
-                    <!-- IMAGEM AQUI -->
-                </div>
+        <section id="login">
+            <div id="imagem">
+                <!-- IMAGEM AQUI -->
+            </div>
 
-                <div id="formulario">
-                    <h1>Login</h1>
-                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-                    
-                    <form action="#" method="post" autocomplete="on">
-                        <p>
-                            <label for="iemail"><i class="material-icons">person</i></label>
-                            <input type="email" id="iemail" required autocomplete="email" placeholder="Digite seu email">
-                        </p>
-                        <p>
-                            <label for="isenha"><i class="material-icons">vpn_key</i></label>
-                            <input type="password" id="isenha" required autocomplete="current-password" minlength="8" placeholder="Digite sua senha">
-                        </p>
-                        <input type="submit" value="Enviar" id="ienviar">
-                        <a href="#"><p id="link">Esqueci a senha <i class="material-icons">email</i></p></a>
-                    </form>
-                </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 
-            </section>
+                <form action="login.php" method="post" autocomplete="on">
+                    
+                    <div class="campo">
+                        <i class="material-icons">person</i>
+                        <input type="email" id="iemail" required autocomplete="email" placeholder="Digite seu email">
+                        <label for="iemail"></label>
+                    </div>
+                    <div class="campo"> 
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" id="isenha" required autocomplete="current-password" minlength="8" placeholder="Digite sua senha">
+                        <label for="isenha"></label>
+                    </div>
+                    
+                    <input type="submit" value="Enviar">
+                    <a href="#" class="botao">
+                        Esqueci a senha <i class="material-icons">mail</i>
+                    </a>
+
+                </form>
+            </div>
+
+        </section>
     </main>
     
 </body>
