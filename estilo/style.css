@@ -97,8 +97,8 @@ div.campo > input{
     border: none;
     border-radius: 5px;
     padding-left: 6px;
-    background-color: var(--cor01);
-    
+    background-color: rgb(215, 215, 215);
+    outline: none;
 }
 
 ::placeholder{
